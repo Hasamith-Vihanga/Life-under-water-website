@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+
+body {
+    background-color: rgb(173, 208, 219);
+    color: rgb(32, 54, 135);
+    font-size: large;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.cover-img {
+    height: 800px;
+    width: 100%;
+}
+
+nav {
+    background-color: #abbfd3;
+    padding: 20px;
+    text-align: center;
+    font-size: x-large;
+    background-image: linear-gradient(to right,#4760bb,#40c3ca,#0e2652);
+}
+nav a {
+    color: #00040a;
+    text-decoration: none;
+    margin: 0 30px;
+}
+nav a:hover {
+    color: #ffffff; /* Change color on hover */
+    background-color: #0e1301; /* Add background color on hover */
+    border-radius: 1px; /* Optional: Add rounded corners */
+    padding: 10px 10px;
+}
+
+.image-container {
+    position: relative;
+}
+
+.image-container img {
+    width: 100%;
+}
+.text-image {
+    position: absolute;
+    left: 0;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+    color: rgb(226, 237, 241);
+    padding: 10px;
+    font-family:Rubik Mono One;
+    font-size: 60px;
+    
+}
+
+.images {
+    margin: 5px;
+    border-radius: 30px;
+    overflow: hidden;
+    display: inline-block; /* Display images inline */
+    margin-right: 10px; /* Adjust as needed */
+    vertical-align: top; /* Align images to the top */
+}
+   
+h2 {
+    font-family: ;
+}
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fullscreen Video Container */
+.video-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+/* Background Video */
+#bg-video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 100%;
+    min-height: 100%;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+}
+
+/* Overlay for better text visibility */
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Dark overlay */
+    z-index: 1;
+}
+/* Header with Logo and Company Name */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:linear-gradient(to right, #000428, #004e92, #000428); 
+    border-bottom: 3px solid rgba(0, 0, 0, 0.4); 
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4); /* Soft shadow */
+    padding: 10px 20px;
+    position: relative;  /* Fixes overlap issue */
+    height: 100px;
+}
+
+.logo {
+    height: auto; /* Adjust as needed */
+    width: 120px;
+    margin-right: 15px;
+}
+
+.company-name {
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    font-weight: bold;
+}
+
+/* Navigation Bar */
+.navbar {
+    background: linear-gradient(to right,#003973, #4facfe, #003973); 
+    height: 50px; /* Increased height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative; /* Prevents overlap */
+    z-index: 999; /* Keeps it on top */
+    padding: 0 20px;
+    border-bottom: 3px solid rgba(0, 0, 0, 0.4); 
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4); /* Soft shadow */
+}
+/* When scrolling, change navbar style */
+.navbar.scrolled {
+    background: rgba(0, 0, 0, 0.9); /* Darker on scroll */
+    height: 75px;
+    border-bottom: 3px solid rgba(255, 215, 0, 0.8); /* Brighter gold */
+}
+
+.nav-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 35px;
+}
+
+.nav-links li {
+    display: inline;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+.nav-links a:hover {
+    color: #FFD700; /* Golden hover effect */
+}
+
+.footer {
+    background: linear-gradient(to right,#003973, #4facfe, #003973); 
+    color: black; 
+    text-align: center;
+    padding: 15px 0; 
+    font-size: 16px;
+    position: relative; 
+    bottom: 0;
+    width: 100%; 
+}
+.footer p {
+    margin: 0;
+}
+
+.footer a {
+    color: black;  
+    text-decoration: none; /* Remove underline */
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+.footer a:hover {
+    color: #FFD700; /* Change color when hovered (Golden color) */
+} 
+

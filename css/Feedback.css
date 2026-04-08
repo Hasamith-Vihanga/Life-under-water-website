@@ -1,0 +1,115 @@
+/* Feedback Form Styling */
+.feedback-section {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+body{
+    background: url(hard-light-mosaic-blue-abstract-creative-background-design_851755-175804.avif);
+}
+
+.feedback-section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #003973;
+}
+
+.feedback-form fieldset {
+    border: 2px solid #004e92;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    background: #e3f2fd; /* Light blue background */
+}
+
+.feedback-form legend {
+    font-weight: bold;
+    color: #004e92;
+}
+
+.feedback-form label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #003973;
+}
+
+.feedback-form input,
+.feedback-form textarea,
+.feedback-form select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.feedback-form textarea {
+    resize: vertical;
+}
+
+.feedback-form button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background: #004e92;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.feedback-form button:hover {
+    background: #003973;
+}
+
+.rating span {
+    font-size: 24px;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.rating span:hover,
+.rating span:hover ~ span {
+    color: #FFD700;
+}
+
+#charCount {
+    display: block;
+    font-size: 12px;
+    color: gray;
+    margin-top: 5px;
+}
+
+/* Align Preferred Contact Method Checkbox and Label */
+.contact-method {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+    background: #e3f2fd; /* Light blue background for section */
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.contact-method label {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.contact-method input[type="checkbox"] {
+    width: 18px;
+    height: 18px;
+}
+.contact-email {
+    top: 1500px;
+    left: 30%;
+}
